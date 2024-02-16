@@ -70,6 +70,7 @@ header {
   justify-content: space-around;
 }
 
+/*pizza*/
 .content {
   .content-inner {
     color: var(--red);
@@ -79,6 +80,10 @@ header {
     padding: 0 0 3px 0;
     display: flex;
     align-items: baseline;
+    h3 {
+      display: flex;
+      align-items: center;
+    }
     p {
       font-family: Fraunces, serif;
       font-size: 30px;
@@ -86,6 +91,9 @@ header {
       margin: 0;
     }
   }
+}
+span.badge {
+  padding-left: 10px;
 }
 .heading-line {
   flex-grow: 1;
