@@ -113,7 +113,10 @@ p.description {
   h3 {
     font-size: 20px;
   }
-  .single-pizza .content p {
-    font-size: 20px;
+  p.prix {
+    font-size: 20px !important;
+  }
+  p.description {
+    top: -15px;
   }
 }
