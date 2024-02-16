@@ -6,10 +6,11 @@
 h1 {
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-size: 82px;
   text-align: center;
+  margin-block-start: 0.67em;
+  margin-block-end: 0em;
 }
 h2 {
   font-family: Staatliches, sans-serif;
@@ -29,7 +30,6 @@ h3 {
 }
 p,
 a {
-  font-family: "Staatliches", sans-serif;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
@@ -51,13 +51,18 @@ body {
 section {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 110px 30px 0px 30px;
+  padding: 110px 15px 0px 15px;
 }
 /*header*/
 header {
   background-color: var(--red);
   color: white;
   padding: 40px;
+  p {
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+  }
 }
 .info {
   display: flex;
