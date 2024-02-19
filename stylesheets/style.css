@@ -67,6 +67,12 @@ header {
     margin-block-start: 0em;
     margin-block-end: 0em;
   }
+  .info {
+    p,
+    a {
+      font-size: 14px;
+    }
+  }
 }
 .about {
   padding: 50px 0;
@@ -127,7 +133,41 @@ footer {
   margin-top: 120px;
   background-color: var(--red);
   padding: 30px;
+  h1 {
+    color: white;
+    font-size: 22px;
+    text-align: left;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: white;
+    font-size: 16px;
+  }
+  ul {
+    color: white;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    li {
+      font-family: "Mulish", sans-serif;
+    }
+  }
 }
+
+.copyright {
+  background-color: var(--red);
+  padding-bottom: 5px;
+  p {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 55px;
@@ -143,5 +183,25 @@ footer {
   }
   p.description {
     top: -15px;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  footer {
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 10px;
+    }
+    h1,
+    p,
+    li {
+      text-align: center;
+    }
   }
 }
