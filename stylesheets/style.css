@@ -132,7 +132,13 @@ p.description {
 footer {
   margin-top: 120px;
   background-color: var(--red);
-  padding: 30px;
+  .info {
+    max-width: 1440px;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
   h1 {
     color: white;
     font-size: 22px;
