@@ -163,10 +163,14 @@ footer {
     }
   }
 }
-h3.supplements {
-  text-align: center;
-  color: var(--red);
+.supplements {
+  padding-top: 65px !important;
+  h3 {
+    text-align: center;
+    color: var(--red);
+  }
 }
+
 .copyright {
   background-color: var(--red);
   padding-bottom: 5px;
